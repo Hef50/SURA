@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
+import wandb
 
 from environment import MazeEnv
 from bfs_expert import bfs, generate_expert_actions
@@ -45,10 +46,13 @@ def collect_expert_data(num_mazes, D, encoding_fn):
     return torch.tensor(np.array(states), dtype=torch.float32), torch.tensor(np.array(actions), dtype=torch.long)
 
 def train_behavioral_cloning():
-    D = 5
+    D = 8
     EPOCHS = 15 # solid balance for small grids
     BATCH_SIZE = 32 # efficient batch without overloading mem
     HIDDEN_DIM = 128 # should be enough to learn parmaeters
+    LEARNING_RATE = 0.001
+    NUM_TRAIN_MAZES = 400
+    NUM_VAL_MAZES = 100 
 
     print("Collecting expert BFS solves...")
     # train = expert states tensor

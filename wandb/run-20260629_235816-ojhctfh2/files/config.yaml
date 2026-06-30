@@ -1,0 +1,44 @@
+_wandb:
+    value:
+        cli_version: 0.28.0
+        e:
+            t0ulpuyk5bbnjnjazv4cqxba2vxom5zn:
+                codePath: wandb-test.py
+                codePathLocal: wandb-test.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "112271028224"
+                        used: "57377136640"
+                email: hareshmu@andrew.cmu.edu
+                executable: M:\A0 Coding Projects\SURA\.venv\Scripts\python.exe
+                git:
+                    commit: 4135d84dcde01f4e6e50d982ea68a9b6b3d57b8c
+                    remote: https://github.com/Hef50/SURA.git
+                host: H50P
+                memory:
+                    total: "34029125632"
+                os: Windows-11-10.0.26200-SP0
+                program: m:\A0 Coding Projects\SURA\wandb-test.py
+                python: CPython 3.12.4
+                root: M:\A0 Coding Projects\SURA
+                startedAt: "2026-06-30T03:58:16.427548Z"
+                writerId: t0ulpuyk5bbnjnjazv4cqxba2vxom5zn
+        m: []
+        python_version: 3.12.4
+        t:
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.4
+            "5": 0.28.0
+            "8":
+                - 3
+            "12": 0.28.0
+            "13": windows-amd64
+dummy_learning_rate:
+    value: 0.001
+test-run:
+    value: true

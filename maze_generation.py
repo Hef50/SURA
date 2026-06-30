@@ -51,6 +51,10 @@ def generate_maze(D, seed=None):
     return maze
 
 def simple_visualize(maze, start_pos=None, goal_pos=None):
+    # maze[0, :] = 1        # Top edge
+    # maze[-1, :] = 1       # Bottom edge
+    # maze[:, 0] = 1        # Left edge
+    # maze[:, -1] = 1       # Right edge
     plt.imshow(maze, cmap="binary")
 
     if start_pos is not None:
@@ -92,7 +96,7 @@ def generate_mazes(n, D):
     return dataset
 
 if __name__ == "__main__":
-    D = 10
+    D = 21
     print(f"Generating a {D}x{D} maze: ")
 
     maze_grid = generate_maze(D, seed=42)

@@ -1,0 +1,28 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.12.4",
+  "startedAt": "2026-06-30T03:58:16.427548Z",
+  "program": "m:\\A0 Coding Projects\\SURA\\wandb-test.py",
+  "codePath": "wandb-test.py",
+  "codePathLocal": "wandb-test.py",
+  "git": {
+    "remote": "https://github.com/Hef50/SURA.git",
+    "commit": "4135d84dcde01f4e6e50d982ea68a9b6b3d57b8c"
+  },
+  "email": "hareshmu@andrew.cmu.edu",
+  "root": "M:\\A0 Coding Projects\\SURA",
+  "host": "H50P",
+  "executable": "M:\\A0 Coding Projects\\SURA\\.venv\\Scripts\\python.exe",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "112271028224",
+      "used": "57377136640"
+    }
+  },
+  "memory": {
+    "total": "34029125632"
+  },
+  "writerId": "t0ulpuyk5bbnjnjazv4cqxba2vxom5zn"
+}
